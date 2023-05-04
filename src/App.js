@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import myImage from './RESUME_YASH_KHENI_DOUBLE.pdf';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  useEffect(() => {
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('src', `${myImage}`);
+    iframe.setAttribute('width', '100%');
+    iframe.setAttribute('height', '685px');
+    document.body.appendChild(iframe);
+    return () => {
+      document.body.removeChild(iframe);
+    };
+  }, []);
+
+  return null;
 }
 
 export default App;
