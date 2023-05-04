@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/resume/static/js/main.2187eebe.js",
+    "static/js/787.4c01bc78.chunk.js": "/resume/static/js/787.4c01bc78.chunk.js",
+    "static/media/RESUME_YASH_KHENI_DOUBLE.pdf": "/resume/static/media/RESUME_YASH_KHENI_DOUBLE.f335f95ca7c8f3cb16f2.pdf",
+    "index.html": "/resume/index.html",
+    "main.2187eebe.js.map": "/resume/static/js/main.2187eebe.js.map",
+    "787.4c01bc78.chunk.js.map": "/resume/static/js/787.4c01bc78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2187eebe.js"
+  ]
+}
